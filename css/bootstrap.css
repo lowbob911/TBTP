@@ -19,7 +19,6 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
 menu,
 nav,
@@ -4986,6 +4985,10 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
+    background-image: url(../src/Head.JPG);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 48px;
     padding-bottom: 48px;
   }
@@ -6546,7 +6549,7 @@ button.close {
   position: fixed;
 }
 @-ms-viewport {
-  width: device-width;
+
 }
 .visible-xs,
 .visible-sm,
